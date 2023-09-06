@@ -22,9 +22,9 @@ module.exports = {
         extraFileExtensions: [".astro"],
         // The script of Astro components uses ESM.
         sourceType: "module",
-        "ecmaFeatures": {
-          "jsx": true
-        }
+        ecmaFeatures: {
+          jsx: true,
+        },
       },
       rules: {
         // Enable recommended rules
@@ -56,4 +56,4 @@ module.exports = {
       },
     },
   ],
-}
+};
