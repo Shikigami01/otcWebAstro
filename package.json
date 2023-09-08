@@ -11,7 +11,7 @@
     "astro": "astro",
     "prettier": "prettier --write .",
     "lint:scss": "stylelint \"src/**/*.{astro,scss,ts}\"",
-    "lint:ts": "eslint src/**/*.{ts,astro}",
+    "lint:ts": "eslint src/**/*.{ts,tsx,astro}",
     "lint": "yarn lint:scss & yarn lint:ts",
     "cm": "git-cz",
     "prepare": "husky install",
