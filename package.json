@@ -13,35 +13,52 @@
     "lint:scss": "stylelint \"src/**/*.{astro,scss,ts}\"",
     "lint:ts": "eslint src/**/*.{ts,astro}",
     "lint": "yarn lint:scss & yarn lint:ts",
-    "postinstall": "husky install",
     "cm": "git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "lint-staged": {
     "*.{astro,scss,ts,tsx}": "yarn lint"
   },
   "dependencies": {
     "@astrojs/react": "^2.3.2",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "astro": "^2.10.13",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "astro": "^3.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "the-new-css-reset": "^1.9.0"
   },
   "devDependencies": {
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.1",
+    "@storybook/addon-essentials": "^7.4.0",
+    "@storybook/addon-interactions": "^7.4.0",
+    "@storybook/addon-links": "^7.4.0",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.0",
+    "@storybook/builder-vite": "^7.4.0",
+    "@storybook/react": "^7.4.0",
+    "@storybook/react-vite": "^7.4.0",
+    "@storybook/testing-library": "^0.2.0",
     "@typescript-eslint/parser": "^6.4.1",
     "eslint": "^8.47.0",
     "eslint-plugin-astro": "^0.29.0",
+    "eslint-plugin-storybook": "^0.6.13",
     "git-cz": "^4.9.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "postcss-html": "^1.5.0",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",
+    "prop-types": "^15.8.1",
     "sass": "^1.66.1",
+    "storybook": "^7.4.0",
     "stylelint": "^15.10.3",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-recommended-scss": "^12.0.0",
-    "stylelint-config-standard": "^34.0.0"
+    "stylelint-config-standard": "^34.0.0",
+    "typescript": "^5.2.2"
   }
 }
