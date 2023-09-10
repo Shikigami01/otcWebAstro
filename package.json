@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prettier": "prettier --write .",
+    "format": "prettier --write src/",
     "lint:scss": "stylelint \"src/**/*.{astro,scss,ts}\"",
     "lint:ts": "eslint src/**/*.{ts,tsx,astro}",
     "lint": "yarn lint:scss & yarn lint:ts",
