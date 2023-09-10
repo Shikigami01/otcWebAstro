@@ -7,7 +7,6 @@ const meta = {
   title: 'Header',
   component: Header,
   args: {},
-  
 } satisfies Meta<typeof Header>;
 
 export default meta;

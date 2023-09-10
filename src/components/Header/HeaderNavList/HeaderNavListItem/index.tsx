@@ -7,5 +7,9 @@ type Props = {
 };
 
 export const HeaderNavlistItem: React.FC<Props> = ({ url, name }) => {
-  return <a css={styles.wrapper} href={url}>{name}</a>;
+  return (
+    <a css={styles.wrapper} href={url}>
+      {name}
+    </a>
+  );
 };

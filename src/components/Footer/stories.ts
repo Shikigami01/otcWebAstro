@@ -7,7 +7,6 @@ const meta = {
   title: 'Footer',
   component: Footer,
   args: {},
-  
 } satisfies Meta<typeof Footer>;
 
 export default meta;

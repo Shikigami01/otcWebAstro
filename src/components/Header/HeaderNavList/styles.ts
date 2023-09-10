@@ -4,5 +4,5 @@ export const styles = {
   list: css`
     display: flex;
     gap: 20px;
-  `
+  `,
 };
