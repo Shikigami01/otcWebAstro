@@ -6,8 +6,8 @@ export const styles = {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px 0;
     font-size: 1rem;
+    line-height: 1.5;
     color: ${colors.gray};
     background-color: ${colors.brown};
   `,
