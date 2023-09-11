@@ -4,7 +4,7 @@ import { HeaderLogo } from './';
 type Story = StoryObj<typeof meta>;
 
 const meta = {
-  title: 'HeaderLogo',
+  title: 'Header/HeaderLogo',
   component: HeaderLogo,
   args: {},
 } satisfies Meta<typeof HeaderLogo>;
