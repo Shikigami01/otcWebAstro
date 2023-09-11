@@ -12,7 +12,7 @@ export const styles = {
     gap: 20px;
     height: 50px;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 0 16px;
     box-sizing: border-box;

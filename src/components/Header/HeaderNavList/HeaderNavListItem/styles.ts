@@ -3,11 +3,13 @@ import { colors } from '../../../../utils/colors';
 
 export const styles = {
   wrapper: css`
+    display: block;
     position: relative;
     padding: 2px 0;
     box-sizing: border-box;
     color: ${colors.gray};
     font-size: 1rem;
+    line-height: 1.5;
 
     @media (min-width: 768px) {
       &::after {
