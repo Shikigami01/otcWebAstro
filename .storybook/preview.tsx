@@ -1,5 +1,6 @@
 /** @type { import('@storybook/react').Preview } */
 import 'the-new-css-reset';
+import '../src/styles/global.scss';
 
 const preview = {
   parameters: {
