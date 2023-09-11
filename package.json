@@ -19,7 +19,7 @@
     "build-storybook": "storybook build"
   },
   "lint-staged": {
-    "*.{astro,scss,ts,tsx}": "yarn lint"
+    "*.{astro,scss,ts,tsx}": "yarn lint:scss & yarn lint:ts"
   },
   "dependencies": {
     "@astrojs/react": "^2.3.2",
