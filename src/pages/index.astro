@@ -1,10 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Header } from '../components/Header';
+import { MainVisual } from '../components/MainVisual';
 ---
 
-<Layout title="Home">
-  <main>
-    <Header />
-  </main>
+<Layout title="Home" ogType="website">
+  <div class="mainVisual">
+    <MainVisual />
+  </div>
 </Layout>
+
+<style lang="scss">
+  .mainVisual {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(50vh - 230px);
+  }
+</style>

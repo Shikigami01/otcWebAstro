@@ -1,10 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Header } from '../components/Header';
+import { Title } from '../components/Title';
+import { ArchiveList } from '../components/ArchiveList';
+import { archiveListData } from '../assets/archiveList';
 ---
 
-<Layout title="Archive">
-  <main>
-    <Header />
-  </main>
+<Layout title="Archive" ogType="article">
+  <div class="wrapper">
+    <div class="title">
+      <Title>Archive List</Title>
+    </div>
+    <ArchiveList data={archiveListData}/>
+  </div>
 </Layout>
+
+<style lang="scss">
+  .title {
+    margin: 0 auto 16px;
+  }
+  .wrapper {
+    margin: 16px auto;
+  }
+</style>

@@ -1,22 +1,49 @@
 ---
 import 'the-new-css-reset';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 
 interface Props {
   title: string;
+  ogType: string;
 }
 
 const { title } = Astro.props;
+const { ogType } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/image/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Over The Coffee | {title}</title>
+    <meta name="description" content="Over The Coffee Official Web Site" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclipicon -->
+    <link rel="icon" href="/image/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/image/favicon.svg" />
+    <link rel="apple-touch-icon" href="/image/webclip.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="Over The Coffee" />
+    <meta property="og:url" content="https://overthecoffee.net/" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content=`Over The Coffee | ${title}` />
+    <meta
+      property="og:description"
+      content="Over The Coffee Official Web Site"
+    />
+    <meta property="og:image" content="/image/ogp.png" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="Over The Coffee Official Web Site"
+    />
+    <meta name="twitter:image:src" content="/image/ogp.png" />
 
     <script>
       (function (d) {
@@ -51,6 +78,39 @@ const { title } = Astro.props;
     </script>
   </head>
   <body>
-    <slot />
+    <div class="header">
+      <Header />
+    </div>
+    <main>
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>
+
+<style lang="scss">
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: fot-tsukubrdgothic-std, sans-serif;
+    background-color: #fcfcfc;
+  }
+
+  main {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 16px 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+</style>

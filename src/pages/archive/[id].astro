@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Title } from '../../components/Title';
+import { archiveListData } from '../../assets/archiveList';
+import { Artwork } from '../../components/Artwork';
+import { SongList } from '../../components/SongList'
+
+export async function getStaticPaths() {
+  return archiveListData.map((data) => {
+    return {
+      params: { id: data.id },
+      props: { data },
+    };
+  });
+}
+
+const { data } = Astro.props;
+---
+
+<Layout title={data.title} ogType="article">
+  <section class="wrapper">
+    <div class="title">
+      <Title>{data.title}</Title>
+    </div>
+    <div class="contents">
+      <div class="artwork">
+        <Artwork pathUrl={data.imageUrl} name={data.title} />
+      </div>
+      <SongList data={data.trackList}/>
+    </div>
+  </section>
+</Layout>
+
+<style lang="scss">
+  .wrapper {
+    margin: 16px auto;
+  }
+  .title {
+    margin: 0 auto 16px;
+  }
+  .contents {
+    display: flex;
+    gap: 16px;
+  }
+  .artwork {
+    width: 400px;
+  }
+</style>
