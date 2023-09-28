@@ -364,7 +364,7 @@ export const archiveListData = [
     ],
   },
   {
-    id: '0011',
+    id: 11,
     modelNumber: 'otc_0011',
     imageUrl: '/image/artwork/0011.jpg',
     releaseDate: '2017/12',
