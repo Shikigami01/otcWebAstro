@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Linklist } from './';
+import { LinkList } from './';
 
 type Story = StoryObj<typeof meta>;
 
 const meta = {
-  title: 'Linklist',
-  component: Linklist,
+  title: 'LinkList',
+  component: LinkList,
   args: { chidlren: 'About' },
-} satisfies Meta<typeof Linklist>;
+} satisfies Meta<typeof LinkList>;
 
 export default meta;
 

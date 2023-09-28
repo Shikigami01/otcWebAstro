@@ -19,7 +19,7 @@ const LINK_LIST_ITEM_ARRAY = [
   },
 ];
 
-export const Linklist = () => {
+export const LinkList = () => {
   return (
     <ul>
       {LINK_LIST_ITEM_ARRAY.map((item) => {
