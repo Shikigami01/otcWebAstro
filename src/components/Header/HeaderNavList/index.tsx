@@ -3,15 +3,15 @@ import { styles } from './styles';
 
 const LINK_ITEM = [
   {
-    url: './',
+    url: '/',
     name: 'Home',
   },
   {
-    url: './about',
+    url: '/about',
     name: 'About',
   },
   {
-    url: './archive',
+    url: '/archive',
     name: 'Archive',
   },
 ];
