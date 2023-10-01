@@ -36,46 +36,20 @@ const { ogType } = Astro.props;
       property="og:description"
       content="Over The Coffee Official Web Site"
     />
-    <meta property="og:image" content="https://overthecoffee.net/image/ogp.png" />
+    <meta
+      property="og:image"
+      content="https://overthecoffee.net/image/ogp.png"
+    />
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:description"
       content="Over The Coffee Official Web Site"
     />
-    <meta name="twitter:image:src" content="https://overthecoffee.net/image/ogp.png" />
-
-    <script>
-      (function (d) {
-        var config = {
-            kitId: 'yln1vpp',
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
-          }, config.scriptTimeout),
-          tk = d.createElement('script'),
-          f = false,
-          s = d.getElementsByTagName('script')[0],
-          a;
-        h.className += ' wf-loading';
-        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != 'complete' && a != 'loaded')) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
+    <meta
+      name="twitter:image:src"
+      content="https://overthecoffee.net/image/ogp.png"
+    />
   </head>
   <body>
     <div class="header">
@@ -93,8 +67,31 @@ const { ogType } = Astro.props;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: fot-tsukubrdgothic-std, sans-serif;
+    font-family:
+      'Noto Sans JP',
+      'Helvetica Neue',
+      'Arial',
+      'Hiragino Kaku Gothic ProN',
+      'Hiragino Sans',
+      'Meiryo',
+      sans-serif;
     background-color: #fcfcfc;
+  }
+
+  @font-face {
+    src: url('/fonts/NotoSansJP-Regular.woff') format('woff');
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+  }
+
+  @font-face {
+    src: url('/fonts/NotoSansJP-Bold.woff') format('woff');
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
   }
 
   main {

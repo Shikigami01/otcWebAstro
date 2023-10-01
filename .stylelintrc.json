@@ -2,7 +2,7 @@
   "extends": ["stylelint-config-recommended-scss", "stylelint-config-html"],
   "rules": {
     "color-named": "never",
-    "font-family-name-quotes": "always-where-required",
+    "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
