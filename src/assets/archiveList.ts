@@ -11,7 +11,7 @@ export const archiveListData = [
       {
         trackName: 'Constant Moderato (Tropical House Remix)',
         isOriginalSongFlag: true,
-        originalSongName: '',
+        originalSongName: 'Constant Moderato',
       },
       {
         trackName: 'Irasshaimase (Tropical House Remix)',
