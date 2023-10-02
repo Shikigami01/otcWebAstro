@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { Title } from '../../components/Title';
 import { archiveListData } from '../../assets/archiveList';
 import { Artwork } from '../../components/Artwork';
-import { SongList } from '../../components/SongList'
+import { SongList } from '../../components/SongList';
 
 export async function getStaticPaths() {
   return archiveListData.map((data) => {
@@ -26,7 +26,7 @@ const { data } = Astro.props;
       <div class="artwork">
         <Artwork pathUrl={data.imageUrl} name={data.title} />
       </div>
-      <SongList data={data.trackList}/>
+      <SongList data={data.trackList} />
     </div>
   </section>
 </Layout>
@@ -40,9 +40,25 @@ const { data } = Astro.props;
   }
   .contents {
     display: flex;
+    flex-direction: column;
     gap: 16px;
+
+    @media (min-width: 600px) {
+      flex-direction: row;
+    }
   }
   .artwork {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+    @media (min-width: 600px) {
+      width: 260px;
+      margin: 0;
+    }
+
+    @media (min-width: 768px) {
+      width: 400px;
+    }
   }
 </style>
