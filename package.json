@@ -42,7 +42,7 @@
     "@storybook/react": "^7.4.5",
     "@storybook/react-vite": "^7.4.0",
     "@storybook/testing-library": "^0.2.0",
-    "@typescript-eslint/parser": "^6.4.1",
+    "@typescript-eslint/parser": "^6.7.3",
     "eslint": "^8.50.0",
     "eslint-plugin-astro": "^0.29.1",
     "eslint-plugin-storybook": "^0.6.13",
