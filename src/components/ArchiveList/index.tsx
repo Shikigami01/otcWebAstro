@@ -13,7 +13,7 @@ export const ArchiveList: React.FC<Props> = ({ data }) => {
         return (
           <li key={item.id} css={styles.item}>
             <a href={`/archive/${item.id}`}>
-              <Artwork pathUrl={item.imageUrl} name={item.title} />
+              <Artwork id={item.id} name={item.title} />
             </a>
           </li>
         );
