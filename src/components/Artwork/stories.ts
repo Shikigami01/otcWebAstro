@@ -7,7 +7,7 @@ const meta = {
   title: 'Artwork',
   component: Artwork,
   args: {
-    pathUrl: '/image/artwork/0014.jpg',
+    id: 14,
     name: '異世界の秘密を曝くのはもう懲り懲りだよ〜!!!',
   },
 } satisfies Meta<typeof Artwork>;
