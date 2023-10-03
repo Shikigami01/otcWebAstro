@@ -1,8 +1,6 @@
 export const archiveListData = [
   {
     id: 20,
-    modelNumber: 'otc_0020',
-    imageUrl: '/image/artwork/0020.jpg',
     releaseDate: '2023/08',
     title: 'PERORO PERORO DREAM',
     listenLink: '',
@@ -42,8 +40,6 @@ export const archiveListData = [
   },
   {
     id: 19,
-    modelNumber: 'otc_0019',
-    imageUrl: '/image/artwork/0019.jpg',
     releaseDate: '2022/12',
     title: 'like a disco',
     listenLink: '',
@@ -78,8 +74,6 @@ export const archiveListData = [
   },
   {
     id: 18,
-    modelNumber: 'otc_0018',
-    imageUrl: '/image/artwork/0018.jpg',
     releaseDate: '2022/09',
     title: 'Bright green rain',
     listenLink: '',
@@ -109,8 +103,6 @@ export const archiveListData = [
   },
   {
     id: 17,
-    modelNumber: 'otc_0017',
-    imageUrl: '/image/artwork/0017.jpg',
     releaseDate: '2022/08',
     title: 'beginning of summer #1',
     listenLink: '',
@@ -145,8 +137,6 @@ export const archiveListData = [
   },
   {
     id: 16,
-    modelNumber: 'otc_0016',
-    imageUrl: '/image/artwork/0016.jpg',
     releaseDate: '2022/01',
     title: 'Vivid Blue Sky',
     listenLink: '',
@@ -176,8 +166,6 @@ export const archiveListData = [
   },
   {
     id: 15,
-    modelNumber: 'otc_0015',
-    imageUrl: '/image/artwork/0015.jpg',
     releaseDate: '2021/12',
     title: 'Tropical Vacation',
     listenLink: '',
@@ -207,8 +195,6 @@ export const archiveListData = [
   },
   {
     id: 14,
-    modelNumber: 'otc_0014',
-    imageUrl: '/image/artwork/0014.jpg',
     releaseDate: '2019/11',
     title: '異世界の秘密を曝くのはもう懲り懲りだよ〜!!!',
     listenLink: 'https://soundcloud.com/shikigami01/xfd-2',
@@ -288,8 +274,6 @@ export const archiveListData = [
   },
   {
     id: 13,
-    modelNumber: 'otc_0013',
-    imageUrl: '/image/artwork/0013.jpg',
     releaseDate: '2019/08',
     title: 'Little Sun',
     listenLink: 'https://soundcloud.com/shikigami01/c96little-sun',
@@ -329,8 +313,6 @@ export const archiveListData = [
   },
   {
     id: 12,
-    modelNumber: 'otc_0012',
-    imageUrl: '/image/artwork/0012.jpg',
     releaseDate: '2018/11',
     title: 'GALLERY',
     listenLink: 'https://soundcloud.com/shikigami01/gallerxfd',
@@ -365,8 +347,6 @@ export const archiveListData = [
   },
   {
     id: 11,
-    modelNumber: 'otc_0011',
-    imageUrl: '/image/artwork/0011.jpg',
     releaseDate: '2017/12',
     title: 'GIRL und PANZERS',
     listenLink: 'https://soundcloud.com/shikigami01/xfdgirl-und-panzersc93',
@@ -422,8 +402,6 @@ export const archiveListData = [
   },
   {
     id: 10,
-    modelNumber: 'otc_0010',
-    imageUrl: '/image/artwork/0010.jpg',
     releaseDate: '2017/05',
     title: 'GAME GIRLS',
     listenLink: 'https://soundcloud.com/shikigami01/17gamegirlsxfd',
@@ -453,8 +431,6 @@ export const archiveListData = [
   },
   {
     id: 9,
-    modelNumber: 'otc_0009',
-    imageUrl: '/image/artwork/0009.jpg',
     releaseDate: '2017/03',
     title: '秘封病特効薬おかわり',
     listenLink: '',
@@ -489,8 +465,6 @@ export const archiveListData = [
   },
   {
     id: 8,
-    modelNumber: 'otc_0008',
-    imageUrl: '/image/artwork/0008.jpg',
     releaseDate: '2016/11',
     title: '秘封病特効薬',
     listenLink: '',
@@ -530,8 +504,6 @@ export const archiveListData = [
   },
   {
     id: 7,
-    modelNumber: 'otc_0007',
-    imageUrl: '/image/artwork/0007.jpg',
     releaseDate: '2016/05',
     title: 'Tonight Seiga',
     listenLink: 'https://soundcloud.com/shikigami01/cdtonight-seiga-disk113',
@@ -646,8 +618,6 @@ export const archiveListData = [
   },
   {
     id: 6,
-    modelNumber: 'otc_0006',
-    imageUrl: '/image/artwork/0006.jpg',
     releaseDate: '2015/11',
     title: 'swing for PLAY GIRLS',
     listenLink: 'https://soundcloud.com/shikigami01/5swing_for_playgirlsxfd',
@@ -682,8 +652,6 @@ export const archiveListData = [
   },
   {
     id: 5,
-    modelNumber: 'otc_0005',
-    imageUrl: '/image/artwork/0005.jpg',
     releaseDate: '2015/05',
     title: '肉',
     listenLink: 'https://soundcloud.com/shikigami01/xfd-1',
@@ -718,8 +686,6 @@ export const archiveListData = [
   },
   {
     id: 4,
-    modelNumber: 'otc_0004',
-    imageUrl: '/image/artwork/0004.jpg',
     releaseDate: '2015/02',
     title: '赤の妹',
     listenLink: 'https://soundcloud.com/shikigami01/xfd',
@@ -754,8 +720,6 @@ export const archiveListData = [
   },
   {
     id: 3,
-    modelNumber: 'otc_0003',
-    imageUrl: '/image/artwork/0003.jpg',
     releaseDate: '2014/11',
     title: 'Greenwich in the Sky',
     listenLink: 'https://soundcloud.com/shikigami01/greenwich-in-the-sky-xfd',
