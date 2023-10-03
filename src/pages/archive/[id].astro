@@ -24,7 +24,7 @@ const { data } = Astro.props;
     </div>
     <div class="contents">
       <div class="artwork">
-        <Artwork pathUrl={data.imageUrl} name={data.title} />
+        <Artwork id={data.id} name={data.title} />
       </div>
       <SongList data={data.trackList} />
     </div>
