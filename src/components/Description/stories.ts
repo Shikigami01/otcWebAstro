@@ -6,7 +6,7 @@ type Story = StoryObj<typeof meta>;
 const meta = {
   title: 'Description',
   component: Description,
-  args: { chidlren: 'なんか書いとけ。' },
+  args: { children: 'なんか書いとけ。' },
 } satisfies Meta<typeof Description>;
 
 export default meta;
