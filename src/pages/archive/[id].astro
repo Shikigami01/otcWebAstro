@@ -23,8 +23,11 @@ const { data } = Astro.props;
       <Title>{data.title}</Title>
     </div>
     <div class="contents">
-      <div class="artwork">
-        <Artwork id={data.id} name={data.title} />
+      <div class="left">
+        <div class="artwork">
+          <Artwork id={data.id} name={data.title} />
+        </div>
+        <div class="date">Release Date : {data.releaseDate}</div>
       </div>
       <SongList data={data.trackList} />
     </div>
@@ -60,5 +63,10 @@ const { data } = Astro.props;
     @media (min-width: 768px) {
       width: 400px;
     }
+  }
+  .date {
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 </style>
