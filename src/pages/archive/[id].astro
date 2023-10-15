@@ -4,6 +4,7 @@ import { Title } from '../../components/Title';
 import { archiveListData } from '../../assets/archiveList';
 import { Artwork } from '../../components/Artwork';
 import { SongList } from '../../components/SongList';
+import { Player } from '../../components/Player';
 
 export async function getStaticPaths() {
   return archiveListData.map((data) => {
@@ -26,6 +27,9 @@ const { data } = Astro.props;
       <div class="left">
         <div class="artwork">
           <Artwork id={data.id} name={data.title} />
+          <div class="player">
+            <Player id={data.id} />
+          </div>
         </div>
         <div class="date">Release Date : {data.releaseDate}</div>
       </div>
@@ -63,6 +67,9 @@ const { data } = Astro.props;
     @media (min-width: 768px) {
       width: 400px;
     }
+  }
+  .player {
+    margin-top: 16px;
   }
   .date {
     margin-top: 16px;
