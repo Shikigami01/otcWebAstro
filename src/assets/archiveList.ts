@@ -3,7 +3,6 @@ export const archiveListData = [
     id: 20,
     releaseDate: '2023/08',
     title: 'PERORO PERORO DREAM',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -42,7 +41,6 @@ export const archiveListData = [
     id: 19,
     releaseDate: '2022/12',
     title: 'like a disco',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -76,7 +74,6 @@ export const archiveListData = [
     id: 18,
     releaseDate: '2022/09',
     title: 'Bright green rain',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -105,7 +102,6 @@ export const archiveListData = [
     id: 17,
     releaseDate: '2022/08',
     title: 'beginning of summer #1',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -139,7 +135,6 @@ export const archiveListData = [
     id: 16,
     releaseDate: '2022/01',
     title: 'Vivid Blue Sky',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -168,7 +163,6 @@ export const archiveListData = [
     id: 15,
     releaseDate: '2021/12',
     title: 'Tropical Vacation',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -197,7 +191,6 @@ export const archiveListData = [
     id: 14,
     releaseDate: '2019/11',
     title: '異世界の秘密を曝くのはもう懲り懲りだよ〜!!!',
-    listenLink: 'https://soundcloud.com/shikigami01/xfd-2',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -276,7 +269,6 @@ export const archiveListData = [
     id: 13,
     releaseDate: '2019/08',
     title: 'Little Sun',
-    listenLink: 'https://soundcloud.com/shikigami01/c96little-sun',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -315,7 +307,6 @@ export const archiveListData = [
     id: 12,
     releaseDate: '2018/11',
     title: 'GALLERY',
-    listenLink: 'https://soundcloud.com/shikigami01/gallerxfd',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -349,7 +340,6 @@ export const archiveListData = [
     id: 11,
     releaseDate: '2017/12',
     title: 'GIRL und PANZERS',
-    listenLink: 'https://soundcloud.com/shikigami01/xfdgirl-und-panzersc93',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -404,7 +394,6 @@ export const archiveListData = [
     id: 10,
     releaseDate: '2017/05',
     title: 'GAME GIRLS',
-    listenLink: 'https://soundcloud.com/shikigami01/17gamegirlsxfd',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -433,7 +422,6 @@ export const archiveListData = [
     id: 9,
     releaseDate: '2017/03',
     title: '秘封病特効薬おかわり',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -467,7 +455,6 @@ export const archiveListData = [
     id: 8,
     releaseDate: '2016/11',
     title: '秘封病特効薬',
-    listenLink: '',
     isListenLinkFlag: false,
     trackList: [
       {
@@ -506,7 +493,6 @@ export const archiveListData = [
     id: 7,
     releaseDate: '2016/05',
     title: 'Tonight Seiga',
-    listenLink: 'https://soundcloud.com/shikigami01/cdtonight-seiga-disk113',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -620,7 +606,6 @@ export const archiveListData = [
     id: 6,
     releaseDate: '2015/11',
     title: 'swing for PLAY GIRLS',
-    listenLink: 'https://soundcloud.com/shikigami01/5swing_for_playgirlsxfd',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -654,7 +639,6 @@ export const archiveListData = [
     id: 5,
     releaseDate: '2015/05',
     title: '肉',
-    listenLink: 'https://soundcloud.com/shikigami01/xfd-1',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -688,7 +672,6 @@ export const archiveListData = [
     id: 4,
     releaseDate: '2015/02',
     title: '赤の妹',
-    listenLink: 'https://soundcloud.com/shikigami01/xfd',
     isListenLinkFlag: true,
     trackList: [
       {
@@ -722,7 +705,6 @@ export const archiveListData = [
     id: 3,
     releaseDate: '2014/11',
     title: 'Greenwich in the Sky',
-    listenLink: 'https://soundcloud.com/shikigami01/greenwich-in-the-sky-xfd',
     isListenLinkFlag: true,
     trackList: [
       {
