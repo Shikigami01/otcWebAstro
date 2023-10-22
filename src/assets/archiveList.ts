@@ -1,5 +1,23 @@
 export const archiveListData = [
   {
+    id: 21,
+    releaseDate: '2023/10',
+    title: 'フレー！フレー！先生！',
+    isListenLinkFlag: false,
+    trackList: [
+      {
+        trackName: 'Starting Pistol (Tropical House Remix)',
+        isOriginalSongFlag: true,
+        originalSongName: 'Starting Pistol',
+      },
+      {
+        trackName: 'Shooting Athletes (UK Garage House Remix)',
+        isOriginalSongFlag: true,
+        originalSongName: 'Shooting Athletes',
+      },
+    ],
+  },
+  {
     id: 20,
     releaseDate: '2023/08',
     title: 'PERORO PERORO DREAM',
