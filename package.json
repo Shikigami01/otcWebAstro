@@ -22,7 +22,7 @@
     "*.{astro,scss,ts,tsx}": "yarn lint:scss & yarn lint:ts"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.3",
+    "@astrojs/react": "^3.0.7",
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.13",
     "astro": "^3.4.3",
